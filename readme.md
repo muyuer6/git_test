@@ -17,7 +17,13 @@ git add filename
 第二步，用命令`git commit`告诉Git，把文件提交到仓库：
 
 ```
-$ git commit -m "本次提交说明：（xxx）"
+$ git commit -m "本次提交说明：（xxx）"(不需要双引号)
+```
+
+设置默认编辑器
+
+```
+git config --global core.editor "'D:/Apps/Notepad3/Notepad3.exe' -multiInst -notabbar -nosession -noPlugin" 
 ```
 
 
